@@ -225,7 +225,7 @@ a{
 
   .project-card{
     width:90%;
-    height: 800px;
+    height: 400px;
     position:relative;
     border-radius: 20px;
     box-shadow: 5px 5px 7px 7px white;
@@ -307,7 +307,7 @@ a{
 
   .project-content-left{ 
     background-color: unset;
-    left:10%;
+    left:-10%;
   }
 
   .project-content-right{ 
@@ -417,7 +417,7 @@ a{
       right: 0;
       top: 0;
     }
-    .project-content-left {
+     .project-content-left {
       left: 0;
       background-color: unset;
     }
@@ -491,21 +491,7 @@ a{
   overflow-y:hidden;
 }
 
-.blob-style{
-  position:absolute;
-  top:50%;
-  left:50%;
-  z-index:-5;
-  transform:translate(-50%, -50%);
-  animation: blobAnimate 3s linear infinite;
-}
 
-@keyframes blobAnimate {
-  50%{
-    top:54%;
-    left:46%;
-  }
-}
 
 .skills-logo{
   width:90px;
