@@ -85,7 +85,12 @@ a{
     padding: 0 1rem;
     padding-bottom: 8rem;
 }
-@media (max-width:900px) {
+@media (max-width:1116px) {
+  .container{
+    max-width: 100%;
+    font-size: 100%;
+  }
+  
   .hero-section{
     position: relative;
     display: flex;
@@ -93,15 +98,34 @@ a{
     align-items: center;
     justify-content: center;
   }  
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    place-items: center;
+    row-gap: 2rem;
+  }
   .hero-section-left{
     width: 100%;
-    margin: 0;
-    padding: 5px;
+    place-items: center;
   }
   .hero-section-right{
     width: fit-content;
-    margin-left: -350px;
-
+    place-items: center;
+  }
+  .skills-container-new{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    place-items: center;
+    max-width: 100%;
+  }
+  .skill-container-left{
+    max-width: 100%;
+  }
+  .skill-container-right{
+    max-width: 100%;
   }
 }
 .faded-text{
@@ -406,7 +430,7 @@ a{
     background-image: url(./images/projects/weatherProjectImage.png);
   }
 
-  @media (max-width:2200px){
+  @media (max-width:2500px){
     .project-content {
       scale: 0.5;
       bottom: 0;
